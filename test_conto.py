@@ -65,5 +65,3 @@ def test_bonifico_successo(conto_base, conto_destinatario):
     assert conto_base.saldo == 58.0
     assert conto_destinatario.saldo == 40.0
 
-def test_fallimento_simulato():
-    assert 2 + 2 == 5
